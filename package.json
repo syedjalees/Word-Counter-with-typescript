@@ -1,0 +1,26 @@
+{
+  "name": "@sydjalees/word-counter-typescript",
+  "version": "1.0.1",
+  "description": "A simple input based word counter with typescript and inquirer",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {
+    "word-counter-typescript": "Index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Syed Jalees Akbar Shah",
+  "license": "MIT",
+  "dependencies": {
+    "@sydjalees/word-counter-typescript": "^1.0.1",
+    "inquirer": "^9.2.20"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
